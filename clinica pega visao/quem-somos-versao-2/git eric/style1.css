@@ -1,0 +1,166 @@
+body{
+    margin: 0px;
+    background-image: url(img/imgback.png) ;
+    background-repeat: no-repeat;
+    
+    color: #3b7197;
+}
+/*HEADER*/
+header{
+    background-color: white;
+    position: fixed;
+    top: 0,
+    ;
+    left: 0;
+    width: 100%;
+    z-index: 999px; 
+}
+
+.container{
+    position: relative;
+}
+
+.divnav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 20px;
+}
+
+.logo{
+    width: 80px;
+    
+}
+a{
+    text-decoration: none;
+    color: #3b7197;
+}
+
+a:hover{
+    color: #000000;
+    text-decoration: underline;
+}
+
+button{
+    background: #a1e1fa;
+	color: white;
+	border-radius: 30px;
+	border:1px solid #000;
+	height: 50px;
+	width: 120px;
+	font: bold 15px arial,sans-serif;
+	
+}
+/*HEADER*/
+
+/*MAIN*/
+.imgprincipal{
+    width: 100%;
+
+}
+
+.msc{
+    border: 1px solid #000;
+    border-radius: 20px;
+    position: relative;
+    bottom: 50px;
+    left: 650px;
+    width: 220px;
+    height: 40px;
+    background-color: #CAE5FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+section{
+    justify-content: center;
+    text-align: center;
+}
+
+.qs{
+     justify-content: center;
+     align-items: center;
+     font-size: 21px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     border-radius: 40px;
+     margin-top: 135px;
+     margin-bottom: 35px;
+     width: 1000px;
+     height: 220PX;
+    border: solid 1px black;
+}
+
+.qs p{
+    text-align: justify;
+} /* justificando o texto*/
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    
+}
+
+#img1qs{
+    width: 1200px;
+    height: 600px;
+}
+
+.qs2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 35px;
+
+}
+
+.qs2 p{
+    justify-content: center;
+    align-items: center;
+    font-size: 19px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 40px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    width: 490px;
+    height: 135PX;
+    border: solid black 1px;
+    margin-left: 80px;
+    margin-right: 80px;
+    
+} /* justificando o texto*/
+
+.contconvenio{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.conv{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 50px;
+    border-radius: 40px;
+    width: 500px;
+    
+}
+
+
+.primeira{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.segunda{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around ;  
+}
